@@ -1,0 +1,84 @@
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.bg {
+  width: 100%;
+  z-index: 1;
+}
+
+body {
+  background: url("bg.png") #7a0f01 no-repeat fixed center;
+  background-size: 100%;
+  position: relative;
+  color: lightblue;
+  font-family: sans-serif;
+}
+
+#h1 {
+  font-weight: 75;
+  animation-name: fadeIn;
+  animation-duration: 5s;
+}
+
+#h2 {
+  font-weight: 100;
+  animation-delay: 1s;
+  animation-name: fadeIn;
+  animation-duration: 5s;
+  font-size: 30px;
+  opacity: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+div {
+  font-weight: 100;
+  background-color: lightblue;
+  color: #7a0f01;
+  width: 75%;
+  border-radius: 5px;
+  animation-name: fadeIn;
+  opacity: 0;
+}
+
+#question {
+  animation-name: fadeIn;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+
+#statistics {
+  animation-name: fadeIn;
+  animation-duration: 5s;
+  animation-delay: 3s;
+}
+h2 {
+  font-weight: 100;
+}
+
+h3 {
+  font-weight: 100;
+}
+
+input {
+  border-radius: 5px;
+  border-style: none;
+  font-size: 30px;
+  width: 20%;
+  text-align: center;
+  font-weight: 100;
+}
+
+.button {
+  font-weight: 100;
+  background-color: #7a0f01;
+  color: lightblue;
+  border-radius: 5px;
+  border-style: none;
+  width:fit-content;
+  padding: 10px;
+}
